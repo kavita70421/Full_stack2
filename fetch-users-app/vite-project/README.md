@@ -1,16 +1,58 @@
-# React + Vite
+Fetch Data from API using useEffect (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Description
 
-Currently, two official plugins are available:
+This project demonstrates how to fetch data from an external API in a React application using the useEffect hook. The application retrieves user data from a public API and displays the Name and Email of each user in a list format.
+This experiment helps in understanding how React components interact with APIs and how data can be dynamically rendered in the user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+API Used
+The project uses the following public API:
 
-## React Compiler
+https://jsonplaceholder.typicode.com/users
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+This API provides sample user data including:
+Name
+Email
+Address
+Phone
+Company
 
-## Expanding the ESLint configuration
+In this project, only Name and Email are displayed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technologies Used
+React.js
+JavaScript (ES6)
+Vite
+HTML
+CSS
+Fetch API
+
+FILE STRUCTURE:
+fetch-users-app
+│
+├── node_modules
+├── public
+│
+├── src
+│   │
+│   ├── assets
+│   │
+│   ├── components
+│   │     └── Users.jsx
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+Features:
+Fetch data from an external API
+Use React useEffect hook
+Store data using useState
+Dynamically display user information
+Render list using map()
