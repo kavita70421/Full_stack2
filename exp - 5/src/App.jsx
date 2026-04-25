@@ -1,3 +1,5 @@
+// Author: kavita
+
 import { useState, useCallback } from "react";
 import Child from "./components/Child";
 import Heavy from "./components/Heavy";

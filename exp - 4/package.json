@@ -15,6 +15,7 @@
     "react-dom": "^19.2.0",
     "react-redux": "^9.2.0"
   },
+  "author": "kavita",
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@types/react": "^19.2.7",

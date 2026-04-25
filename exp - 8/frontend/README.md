@@ -111,6 +111,3 @@ Unauthorized requests are blocked
 
 🧠 Conclusion
 This project successfully demonstrates secure frontend-backend integration using JWT authentication. It ensures controlled access to protected resources and follows best practices like token-based authorization and Axios interceptors.
-
-👨‍💻 Author
-Shivani Thakur
