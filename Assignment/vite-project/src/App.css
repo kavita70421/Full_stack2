@@ -1,0 +1,81 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+/* Center container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card */
+.card {
+  background: #111827;
+  padding: 40px;
+  border-radius: 15px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Title fix (NO OVERLAP) */
+.title {
+  font-size: 32px;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+/* Info text */
+.info {
+  margin: 8px 0;
+  color: #cbd5f5;
+  font-size: 16px;
+}
+
+/* Section headings */
+h2 {
+  margin-top: 20px;
+  color: #38bdf8;
+}
+
+/* Features */
+.features {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Counter */
+.count {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* Button */
+button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(56, 189, 248, 0.4);
+}
+
+button:hover {
+  background: #0ea5e9;
+  transform: scale(1.05);
+}
